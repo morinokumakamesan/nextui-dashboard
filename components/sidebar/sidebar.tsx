@@ -56,12 +56,12 @@ export const SidebarWrapper = () => {
                   />
                   <SidebarMenu title="Main Menu">
                      <SidebarItem
-                        isActive={router.pathname === '/accounts'}
-                        title="Accounts"
+                        isActive={router.pathname === '/students'}
+                        title="Students"
                         icon={<AccountsIcon />}
-                        href="accounts"
+                        href="students"
                      />
-                     <SidebarItem
+                     {/* <SidebarItem
                         isActive={router.pathname === '/payments'}
                         title="Payments"
                         icon={<PaymentsIcon />}
@@ -86,10 +86,10 @@ export const SidebarWrapper = () => {
                         isActive={router.pathname === '/reports'}
                         title="Reports"
                         icon={<ReportsIcon />}
-                     />
+                     /> */}
                   </SidebarMenu>
 
-                  <SidebarMenu title="General">
+                  {/* <SidebarMenu title="General">
                      <SidebarItem
                         isActive={router.pathname === '/developers'}
                         title="Developers"
@@ -113,9 +113,9 @@ export const SidebarWrapper = () => {
                         title="Changelog"
                         icon={<ChangeLogIcon />}
                      />
-                  </SidebarMenu>
+                  </SidebarMenu> */}
                </Sidebar.Body>
-               <Sidebar.Footer>
+               {/* <Sidebar.Footer>
                   <Tooltip content={'Settings'} rounded color="primary">
                      <SettingsIcon />
                   </Tooltip>
@@ -128,7 +128,7 @@ export const SidebarWrapper = () => {
                         size={'sm'}
                      />
                   </Tooltip>
-               </Sidebar.Footer>
+               </Sidebar.Footer> */}
             </Flex>
          </Sidebar>
       </Box>

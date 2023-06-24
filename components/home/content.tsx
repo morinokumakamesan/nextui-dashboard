@@ -170,7 +170,7 @@ export const Content = () => (
             >
                Latest Users
             </Text>
-            <NextLink href="/accounts">
+            <NextLink href="/students">
                <Link
                   block
                   color="primary"
